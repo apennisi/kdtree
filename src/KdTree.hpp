@@ -6,7 +6,6 @@
 #include <list>
 
 #include "KdNode.hpp"
-#include "KdRes.hpp"
 
 namespace Kd
 {
