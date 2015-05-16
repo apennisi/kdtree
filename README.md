@@ -5,7 +5,7 @@ KdTree: Yet another implementation of KdTree.
 
 ## How to build
 
-EAT works under Linux and Mac Os environments. We recommend a so-called out of source build 
+KdTree works under Linux and Mac Os environments. We recommend a so-called out of source build 
 which can be achieved by the following command sequence:
 
 * mkdir build
