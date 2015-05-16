@@ -50,8 +50,7 @@ namespace Kd
                 }
 
                 int new_dir;
-                int dir_new_node = -1;
-
+                
                 for(nodeIt it = m_nodelist.begin(); it != m_nodelist.end(); ++it)
                 {
                     new_dir = ((*it)->dir() + 1) % m_dim;
@@ -66,7 +65,6 @@ namespace Kd
                         else
                         {
                             it = m_nodelist.begin() + (*it)->left - 1;
-                            dir_new_node = new_dir;
                             continue;
                         }
                     }
@@ -80,7 +78,6 @@ namespace Kd
                     else
                     {
                         it = m_nodelist.begin() + (*it)->right - 1;
-                        dir_new_node = new_dir;
                         continue;
                     }
 
