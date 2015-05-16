@@ -1,5 +1,5 @@
 # KdTree
-KdTree: Yet another implementation of KdTrees,
+KdTree: Yet another implementation of KdTree.
 
 ![KdTree](/images/kd.png)
 
